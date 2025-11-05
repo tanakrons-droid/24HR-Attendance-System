@@ -6,5 +6,5 @@ import react from '@vitejs/plugin-react'
 // ตัวอย่าง: ถ้าชื่อ repo คือ '24hr-attendance' ให้ใช้ base: '/24hr-attendance/'
 export default defineConfig({
   plugins: [react()],
-  base: '/' // เปลี่ยนเป็น '/' สำหรับ custom domain
+  base: '/24HR-Attendance-System/' // กลับไปใช้ GitHub Pages path
 })
